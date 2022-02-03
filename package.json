@@ -10,6 +10,7 @@
     "start-clack": "node build/clack",
     "start-notepad": "node build/notepad",
     "start-todo": "node build/todo",
+    "start-electron-todo": "electron build/electrontodo",
     "start-database": "node build/database",
     "start-routing": "node build/routing",
     "start-twudder": "node -r dotenv/config build/twudder"
@@ -17,22 +18,22 @@
   "author": "Yunyu Lin",
   "license": "MIT",
   "dependencies": {
-    "@types/classnames": "^2.2.10",
-    "@types/mongodb": "^3.3.16",
-    "caldera": "^0.0.7",
-    "classnames": "^2.2.6",
+    "classnames": "^2.3.1",
     "dotenv": "^8.2.0",
-    "mongodb": "^3.5.3",
+    "mongodb": "^4.3.1",
     "pg": "^8.0.0",
     "randomcolor": "^0.5.4",
+    "react-native-remote-web": "^0.1.1",
     "simplytyped": "^3.2.3",
-    "sql-template-tag": "^3.3.0"
+    "sql-template-tag": "^3.3.0",
+    "tslib": "^2.3.1"
   },
   "devDependencies": {
-    "@types/node": "^13.7.4",
-    "@types/pg": "^7.14.3",
-    "@types/randomcolor": "^0.5.3",
-    "@types/react": "^16.9.22",
-    "typescript": "^3.8.2"
+    "@types/node": "^17.0.14",
+    "@types/pg": "^8.6.4",
+    "@types/randomcolor": "^0.5.6",
+    "@types/react": "^17.0.38",
+    "electron": "^17.0.0",
+    "typescript": "^4.5.5"
   }
 }
